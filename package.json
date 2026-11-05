@@ -1,0 +1,32 @@
+{
+  "name": "dsh-client-pixel-dancer",
+  "version": "1.0.0",
+  "description": "A tiny pixel girl who dances in the corner of the DeepSeek Harness web client.",
+  "license": "MIT",
+  "author": "forkandpraygc",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "client-plugin",
+    "pixel-art",
+    "mascot",
+    "canvas"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "external": []
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js"
+  ]
+}
